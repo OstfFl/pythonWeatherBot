@@ -3,8 +3,8 @@ import telebot
 import random
 from telebot import types
 url = 'http://api.openweathermap.org/data/2.5/weather'
-api_weather = '263ca623a628520be9c8fab81bd021e5'
-api_telegram = '1581597047:AAHW_mU05Lh_MaCMiwTZPBeblrOiEAGUfT4'
+api_weather = 'your openweathermap api key'
+api_telegram = 'your api key from telegram botfather'
 
 bot = telebot.TeleBot(api_telegram)
 
